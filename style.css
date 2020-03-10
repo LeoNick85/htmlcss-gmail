@@ -1,0 +1,94 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(img/background.png);
+    background-size: cover;
+    font-family: 'Assistant', sans-serif;
+}
+
+header {
+    background-color: #483D8B;
+    font-family: 'Righteous', cursive;
+    font-size: 32px;
+    padding: 20px;
+    border-bottom: 4px solid black;
+    }
+
+header img {
+    width: 150px;
+}
+
+header fig, div {
+    display: inline-block;
+}
+
+#sidebar, #results {
+    display: inline-block;
+}
+
+#sidebar  {
+    width: 20%;
+    margin: 20px;
+    border: 2px solid black;
+    background-color: #6495ED;
+}
+
+#results  {
+    width: 60%;
+    margin: 20px;
+    border: 2px solid black;
+    background-color: #6495ED;
+}
+
+#search-tab {
+    width: 100%;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 15px;
+    display:block;
+    background-color: #2162cc;
+}
+
+.sidemenu-item {
+    margin: 2 0 2 0;
+    padding: 10px;
+    border-top: 2px solid darkgrey;
+    font-weight: bold;
+    font-size: 23px;
+    display: block;
+}
+
+#results-message {
+    width: 100%;
+    margin: 0px;
+    padding: 15px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    border: 2px solid #483D8B;
+}
+
+.circle{
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  text-align: center;
+  background-color: #483D8B;
+  display: inline-block;
+  text-decoration: underline;
+}
+
+.preview-email{
+    padding: 5px 15px 4px 15px;
+    border-top: 2px solid black;
+    display: block;
+}
+
+footer {
+    color: white;
+    text-align: center;
+}
